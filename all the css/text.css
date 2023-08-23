@@ -1,0 +1,70 @@
+
+
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.video-title {
+  font-size: 18px;
+  font-weight: bold;
+  width: 320px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.video-stats{ 
+  font-size:  14px;
+  color: rgb(149, 149, 149);
+  margin-bottom: 22px;
+}
+
+.channel-name{  
+  font-size: 14px;
+  color: rgb(95, 95, 95);
+}
+
+.description {
+  font-size: 14px;
+  color: rgb(95, 95, 95);
+  width: 300px;
+  line-height: 20px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.song {
+  font-size: 15px;
+  background-color: rgb(227,64,65);
+  color: whitesmoke;
+  padding-top: 16.5px;
+  padding-bottom: 16.5px;
+  padding-right: 15 px;
+  padding-left: 15px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.spann:after{
+  color: whitesmoke;
+  transition: color .15s, content .2s;
+  content: 'Listen to it NOWW';
+}
+
+.spann:hover:after{
+  cursor: pointer;
+  color: black;
+  content: 'Are you sure bro??';
+} 
+
+.sedboi:after {
+  color: grey;
+  content: 'Sed Siddiqui';
+  
+  transition: color .15s;
+}
+
+.sedboi:hover:after{
+  color: steelblue;
+}
